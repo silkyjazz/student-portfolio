@@ -38,6 +38,7 @@ a{
 }
 
 .container img{ 
+   
     display: flex;   
     width: 100%;
     height: 175px;
@@ -45,16 +46,38 @@ a{
     object-position: 10% 60%; 
 }
 .imageText{
-    position: fixed;
+    position: absolute;
     bottom: 500px;
-    right: 100px;
-    padding: 15px;
+    right: 0px;
+    padding: 2px;
+    margin-bottom:10px;
     background-color: purple;
     color: white;
 
 }
-.cards{
+.container h3{
     display: inline;
-    flex-wrap: wrap;
-    border: 3px solid black;
+    border: 2;
+}
+.contact{
+    display: flex;
+}
+.contact li {
+    background-color: #f8f8f8;
+    display: inline;
+    justify-content: space-evenly;
+    padding: 5px 30px;
+    list-style-type: none;
+  
+
+}
+.contact a{
+    
+    background-color: #f8f8f8;
+    text-decoration: none;
+    color: black;
+
+}
+.contact ul:first-child{
+    border-bottom: 3px solid black;
 }
