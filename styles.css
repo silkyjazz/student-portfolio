@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #f8f8f8;
     margin: 0;
@@ -46,7 +49,7 @@ a{
     object-position: 10% 60%; 
 }
 .imageText{
-    position: absolute;
+    position: fixed;
     bottom: 500px;
     right: 0px;
     padding: 2px;
@@ -68,16 +71,31 @@ a{
     justify-content: space-evenly;
     padding: 5px 30px;
     list-style-type: none;
-  
-
+ 
 }
 .contact a{
-    
-    background-color: #f8f8f8;
     text-decoration: none;
+    border-bottom: 2px solid black;
+    background-color: #f8f8f8;
     color: black;
+    margin-bottom: 5px;
 
 }
-.contact ul:first-child{
-    border-bottom: 3px solid black;
+.contact li:first-child{
+    border-bottom: 2.4px solid black;
+    padding: 0px;
+}
+.card{
+    
+}
+.card img{
+    display: inline;
+    width: 500px;
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {  
+}
+@media screen and (max-width: 576px ) {
+   
 }
