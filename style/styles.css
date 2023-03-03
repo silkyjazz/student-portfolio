@@ -1,40 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pragati+Narrow&family=Zeyada&display=swap');
 
-/* font-family: 'Pacifico', cursive;
-font-family: 'Pragati Narrow', sans-serif;
-font-family: 'Zeyada', cursive; */
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato", sans-serif
-}
-
-.w3-bar,
-h1,
-button {
-    font-family: "Montserrat", sans-serif
-}
-
-#anchor {
-    font-size: 200px;
-}
-
-#coffee {
-    font-size: 200px;
-}
-#name-text{
-    font-family: 'Zeyada', cursive;
-    font-size: 65px;
-}
-#header-text{
-    font-family: 'Pragati Narrow', sans-serif;
-    font-size: 50px;
-}
 body {
     background-color: #090504;
     color: lightgray;
@@ -44,6 +9,24 @@ header {
     background-color: #9AA678;
 }
 
+.about-me-title{
+    font-family: 'EB Garamond', serif;
+}
+.about-me-text{
+    font-family: 'Montserrat', sans-serif;
+}
+.project-title{
+    font-family: 'EB Garamond', serif;
+}
+.name-text{
+    font-family: 'Zeyada', cursive;
+    font-size: 65px;
+}
+.header-text{
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 50px;
+}
+
 #project-div {
     width: 25;
 }
@@ -51,6 +34,7 @@ header {
 #quote {
     margin-top: 25px;
     padding: 30px;
+    font-family: 'Pacifico', cursive;
 }
 
 .portfolio-grid {
@@ -90,3 +74,14 @@ header {
     justify-content: center;
     align-items: center;
 }
+i{
+    opacity: 0.5;
+}
+i:hover{
+    opacity: 1;
+}
+.column-list {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
