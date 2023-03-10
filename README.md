@@ -1,35 +1,56 @@
-# student-portfolio
+# Student Portfolio
 
 ## Description
 
-This webpage wis meant to serve as a portfolio for future employers to view projects I developed in the past
-and projects I am currently working on. The motivation behind creating this webpage was to apply the HTML and CSS material covered in class
-while also creating a space to hold all previous work. Some problems I faced while trying to develop the HTML was trying to figure out how to use flexbox to display the header and cards and what CSS properties were needed to accomplish the desired styling. The concepts of flexbox and grid haven't solidified in my brain quit just yet as I was starting to get the two confused. I know they are both essentially used to accomplish the same thing; to give the elements a layout. However, I'm getting my properties mixed up. I had to differentiate between parent properties and child properties and which element had to be target in the html to give me the styling I needed. 
+This is a personal portfolio to showcase my knowledge in HTML and CSS. 
 
-In the end, I wasn't able to accomplish making my webpage look like the mockup and spent a lot of time looking through matierals, trying to google and find the right doc and just trying to absorb everything. I'm not sure if it was my approach or just not knowing what to tackle first. 
+The website has a responsive layout that adapts to the viewport of various screens and devices.
+
+
+Click on the links in the navbar and the UI will scroll to the corresponding section. 
+
+
 
 
 ## Installation
 
-Here is a link [https://silkyjazz.github.io/student-portfolio/]
+Here is a [link](https://silkyjazz.github.io/student-portfolio/) to the deployed -gh site.
 
 ## Credits
 
-CSS Tricks, W3 Schools
+[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[W3 Schools](https://www.w3schools.com/css/default.asp)
+
 
 ## License
 
 MIT License
 
+Copyright (c) [2023] [Jasmine Ulloa]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 ## Badges
 
-N/A
-
-## Features
-
-N/A
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 
-## Tests
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-N/A
